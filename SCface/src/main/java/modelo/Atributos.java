@@ -5,19 +5,12 @@ public class Atributos {
     private String url;
     private String hair;
     private String hairColor;
-    private String smile;
-    private String headPose;
     private String gender;
     private String age;
     private String facialHair;
     private String glasses;
     private String makeup;
     private String emotion;
-    private String occlusion;
-    private String accessories;
-    private String blur;
-    private String exposure;
-    private String noise;
 
     public String getUrl() {
         return url;
@@ -41,22 +34,6 @@ public class Atributos {
 
     public void setHairColor(String hairColor) {
         this.hairColor = hairColor;
-    }
-
-    public String getSmile() {
-        return smile;
-    }
-
-    public void setSmile(String smile) {
-        this.smile = smile;
-    }
-
-    public String getHeadPose() {
-        return headPose;
-    }
-
-    public void setHeadPose(String headPose) {
-        this.headPose = headPose;
     }
 
     public String getGender() {
@@ -106,47 +83,5 @@ public class Atributos {
     public void setEmotion(String emotion) {
         this.emotion = emotion;
     }
-
-    public String getOcclusion() {
-        return occlusion;
-    }
-
-    public void setOcclusion(String occlusion) {
-        this.occlusion = occlusion;
-    }
-
-    public String getAccessories() {
-        return accessories;
-    }
-
-    public void setAccessories(String accessories) {
-        this.accessories = accessories;
-    }
-
-    public String getBlur() {
-        return blur;
-    }
-
-    public void setBlur(String blur) {
-        this.blur = blur;
-    }
-
-    public String getExposure() {
-        return exposure;
-    }
-
-    public void setExposure(String exposure) {
-        this.exposure = exposure;
-    }
-
-    public String getNoise() {
-        return noise;
-    }
-
-    public void setNoise(String noise) {
-        this.noise = noise;
-    }
-    
-    
 
 }
